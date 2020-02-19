@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 const publicVapidKey = process.env.PUBLIC_VAPID_KEY;
 const privateVapidKey = process.env.PRIVATE_VAPID_KEY;
 
+webpush.setGCMAPIKey('AAAAPoQPy4A:APA91bH-mmSQO-ewPFGU8MIOQl5C0RxrXsIsXyowSYnXM0uOPBtft81f30GIIWz6DLgA7t2iIyHlRFBqL8xj47ZgSMBPaqowjmiPRJdBjSyatG9XQuetKLT6_Ayp9yk24aHBZMMBDcl1');
 // Replace with your email
 webpush.setVapidDetails(
   'mailto:test@test.com', 
