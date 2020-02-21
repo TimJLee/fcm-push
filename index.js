@@ -3,7 +3,7 @@ const webpush = require('web-push');
 const bodyParser = require("body-parser");
 const path = require("path");
 const app = express();
-
+//test
 app.use(express.static(path.join(__dirname, "client")));
 
 app.use(bodyParser.json());
